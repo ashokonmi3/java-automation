@@ -1,4 +1,4 @@
-package collectiontutorial;
+package advanced;
 
 //class Multithread extends Thread {
 //	public void run() {

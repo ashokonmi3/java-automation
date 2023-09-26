@@ -1,10 +1,10 @@
 package Package;
 
-class Protection2 extends corejavapackage.Java_13_Protection {
+class Protection2 extends corejavapackage.Java_13_AccessModifier {
 	Protection2() {
 		System.out.println("derived other package constructor");
 		// class or package only
-		System.out.println("default n = " + n);
+		System.out.println("default n = " + n_def;
 		// class only
 		System.out.println("priivate n_pri = " + n_pri);
 		System.out.println("protected n_pro = " + n_pro);
@@ -16,3 +16,6 @@ class Protection2 extends corejavapackage.Java_13_Protection {
 // private int n_pri = 2;
 // protected int n_pro = 3;
 // public int n_pub = 4;
+
+// In other package only public is accessbile .. and protected can be accessed
+// but using inheritacne

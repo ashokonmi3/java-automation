@@ -1,4 +1,4 @@
-package collectiontutorial;
+package advanced;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
