@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" thread-count="1" parallel="tests" >
+
+<test name="ChromeTest">
+
+<parameter name="browser" value="Chrome" />
+
+<classes>
+
+<class name="javaautomation_03_testng.TNG_12_Crossbrowser">
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="FirefoxTest">
+
+<parameter name="browser" value="Firefox" />
+
+<classes>
+
+<class name="javaautomation_03_testng.TNG_12_Crossbrowser">
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="EdgeTest">
+
+<parameter name="browser" value="Edge" />
+
+<classes>
+
+<class name="javaautomation_03_testng.TNG_12_Crossbrowser">
+
+</class>
+
+</classes>
+
+</test>
+
+</suite>

@@ -1,0 +1,27 @@
+Selenium --
+element (webpages)
+Edit box
+dropdown
+handlelin
+table
+mouse
+radiobutton
+windowhandle
+frames
+
+Framework feature
+1) TestNG
+2) Page object model
+3) propertyfile
+4) Listener
+5) logging
+6) Screenshots
+7) cross browser
+
+Problem statement
+-----------------------
+Create the page object class of each page
+Create a testclass for each page
+Create a test suite class through which i can execute all the test cases in one shot
+Add the listeners, screenshot( when test case fails you need to take sreenshots) , cross browser , logging feature(store the logs based on date
+and time of execution)  in the project

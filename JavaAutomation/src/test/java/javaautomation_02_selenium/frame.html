@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames Demo</title>
+</head>
+<body>
+    <iframe srcdoc='
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Frame 1</title>
+        </head>
+        <body>
+            <h1>This is Frame 1</h1>
+            <a href="https://www.google.com" target="_blank">Google</a>
+        </body>
+        </html>'
+        name="frame1" frameborder="0"></iframe>
+
+    <iframe srcdoc='
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Frame 2</title>
+        </head>
+        <body>
+            <h1>This is Frame 2</h1>
+            <a href="https://www.yahoo.com" target="_blank">Yahoo</a>
+        </body>
+        </html>'
+        name="frame2" frameborder="0"></iframe>
+
+    <iframe srcdoc='
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Frame 3</title>
+        </head>
+        <body>
+            <h1>This is Frame 3</h1>
+            <a href="https://www.rediff.com" target="_blank">Rediff</a>
+        </body>
+        </html>'
+        name="frame3" frameborder="0"></iframe>
+</body>
+</html>

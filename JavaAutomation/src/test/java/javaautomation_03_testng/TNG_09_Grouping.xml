@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+   <groups>
+  <run>
+     <include name = "Navigation" />
+       <include name = "sanity" />
+     </run>
+  </groups>
+    
+    <classes>
+      <class name="javaautomation_03_testng.TNG_09_Grouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

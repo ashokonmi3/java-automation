@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods" thread-count ="3">
+  <test name="Test">
+    <classes>
+      <class name="javaautomation_03_testng.TNG_11_ParallelExecution_01"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

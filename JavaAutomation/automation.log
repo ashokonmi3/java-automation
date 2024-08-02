@@ -1,0 +1,126 @@
+2024-05-28 11:36:15 INFO  Log:15 - Setting up WebDriver and navigating to the BMI Calculator page.
+2024-05-28 11:36:19 INFO  Log:15 - Starting BMI Calculator test.
+2024-05-28 11:36:31 INFO  Log:15 - Completed BMI Calculator test.
+2024-05-28 11:36:32 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 11:38:19 INFO  Log:15 - Test suite started: BmiCalculator Tests
+2024-05-28 11:38:19 INFO  Log:15 - Setting up WebDriver and navigating to the BMI Calculator page.
+2024-05-28 11:38:23 INFO  Log:15 - Test started: testBmiCalculator
+2024-05-28 11:38:23 INFO  Log:15 - Starting BMI Calculator test.
+2024-05-28 11:38:36 INFO  Log:15 - Completed BMI Calculator test.
+2024-05-28 11:38:36 INFO  Log:15 - Test passed: testBmiCalculator
+2024-05-28 11:38:36 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 11:38:36 INFO  Log:15 - Test suite finished: BmiCalculator Tests
+2024-05-28 11:38:36 INFO  Log:15 - Test suite started: Google Tests
+2024-05-28 11:38:36 INFO  Log:15 - Setting up WebDriver and navigating to Google.
+2024-05-28 11:38:40 INFO  Log:15 - Test started: testGmailLink
+2024-05-28 11:38:40 INFO  Log:15 - Starting Gmail Link test.
+2024-05-28 11:38:49 INFO  Log:15 - Completed Gmail Link test.
+2024-05-28 11:38:49 INFO  Log:15 - Test passed: testGmailLink
+2024-05-28 11:38:49 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 11:38:50 INFO  Log:15 - Setting up WebDriver and navigating to Google.
+2024-05-28 11:38:54 INFO  Log:15 - Test started: testPartialGmailLink
+2024-05-28 11:38:54 INFO  Log:15 - Starting Partial Gmail Link test.
+2024-05-28 11:39:03 INFO  Log:15 - Completed Partial Gmail Link test.
+2024-05-28 11:39:03 INFO  Log:15 - Test passed: testPartialGmailLink
+2024-05-28 11:39:03 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 11:39:04 INFO  Log:15 - Test suite finished: Google Tests
+2024-05-28 11:39:04 INFO  Log:15 - Test suite started: Rediff Tests
+2024-05-28 11:39:04 INFO  Log:15 - Setting up WebDriver and navigating to Rediff.
+2024-05-28 11:39:10 INFO  Log:15 - Test started: testSearch
+2024-05-28 11:39:10 INFO  Log:15 - Starting Rediff search test.
+2024-05-28 11:39:18 INFO  Log:15 - Completed Rediff search test.
+2024-05-28 11:39:18 INFO  Log:15 - Test passed: testSearch
+2024-05-28 11:39:18 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 11:39:19 INFO  Log:15 - Test suite finished: Rediff Tests
+2024-05-28 11:39:19 INFO  Log:15 - Test suite started: SeleniumPages Tests
+2024-05-28 11:39:19 INFO  Log:15 - Setting up WebDriver.
+2024-05-28 11:39:21 INFO  Log:15 - Test started: testCssSelector
+2024-05-28 11:39:21 INFO  Log:15 - Starting CSS Selector test.
+2024-05-28 11:39:29 INFO  Log:15 - Completed CSS Selector test.
+2024-05-28 11:39:29 INFO  Log:15 - Test passed: testCssSelector
+2024-05-28 11:39:29 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 11:39:29 INFO  Log:15 - Setting up WebDriver.
+2024-05-28 11:39:30 INFO  Log:15 - Test started: testXpath
+2024-05-28 11:39:30 INFO  Log:15 - Starting XPath test.
+2024-05-28 11:39:37 INFO  Log:15 - Completed XPath test.
+2024-05-28 11:39:37 INFO  Log:15 - Test passed: testXpath
+2024-05-28 11:39:37 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 11:39:37 INFO  Log:15 - Test suite finished: SeleniumPages Tests
+2024-05-28 12:28:08 INFO  Log:15 - Test suite started: Default test
+2024-05-28 12:28:49 INFO  Log:15 - Browser opened and navigated to rediff.com
+2024-05-28 12:28:49 INFO  Log:15 - Test started: testCurrentUrl
+2024-05-28 12:28:49 INFO  Log:15 - Current URL: https://www.rediff.com/
+2024-05-28 12:28:49 INFO  Log:15 - Test passed: testCurrentUrl
+2024-05-28 12:28:50 INFO  Log:15 - Browser closed
+2024-05-28 12:30:51 INFO  Log:15 - Browser opened and navigated to rediff.com
+2024-05-28 12:30:51 INFO  Log:15 - Test started: testHomePageTitle
+2024-05-28 12:30:52 INFO  Log:15 - Test suite finished: Default test
+2024-05-28 12:31:18 INFO  Log:15 - Test suite started: Default test
+2024-05-28 12:34:23 INFO  Log:15 - Test started: testCurrentUrl
+2024-05-28 12:34:23 INFO  Log:15 - Test skipped: testCurrentUrl
+2024-05-28 12:34:23 INFO  Log:15 - Test started: testHomePageTitle
+2024-05-28 12:34:23 INFO  Log:15 - Test skipped: testHomePageTitle
+2024-05-28 12:34:23 INFO  Log:15 - Test started: testPageSource
+2024-05-28 12:34:23 INFO  Log:15 - Test skipped: testPageSource
+2024-05-28 12:34:24 INFO  Log:15 - Test suite finished: Default test
+2024-05-28 12:35:09 INFO  Log:15 - Test suite started: Default test
+2024-05-28 12:35:48 INFO  Log:15 - Browser opened and navigated to rediff.com
+2024-05-28 12:35:48 INFO  Log:15 - Test started: testCurrentUrl
+2024-05-28 12:35:48 INFO  Log:15 - Current URL: https://www.rediff.com/
+2024-05-28 12:35:48 INFO  Log:15 - Test passed: testCurrentUrl
+2024-05-28 12:35:48 INFO  Log:15 - Browser closed
+2024-05-28 12:36:22 INFO  Log:15 - Browser opened and navigated to rediff.com
+2024-05-28 12:36:22 INFO  Log:15 - Test started: testHomePageTitle
+2024-05-28 12:36:22 INFO  Log:15 - Page title: Rediff.com: News | Rediffmail | Stock Quotes | Shopping
+2024-05-28 12:36:22 INFO  Log:15 - Test passed: testHomePageTitle
+2024-05-28 12:36:23 INFO  Log:15 - Browser closed
+2024-05-28 12:36:55 INFO  Log:15 - Browser opened and navigated to rediff.com
+2024-05-28 12:36:55 INFO  Log:15 - Test started: testPageSource
+2024-05-28 12:36:55 INFO  Log:15 - Page Source length: 228038
+2024-05-28 12:36:55 INFO  Log:15 - Test passed: testPageSource
+2024-05-28 12:36:56 INFO  Log:15 - Browser closed
+2024-05-28 12:36:57 INFO  Log:15 - Test suite finished: Default test
+2024-05-28 13:19:06 INFO  Log:15 - Test suite started: BmiCalculator Tests
+2024-05-28 13:19:06 INFO  Log:15 - Setting up WebDriver and navigating to the BMI Calculator page.
+2024-05-28 13:19:12 INFO  Log:15 - Test started: testBmiCalculator
+2024-05-28 13:19:12 INFO  Log:15 - Starting BMI Calculator test.
+2024-05-28 13:19:25 INFO  Log:15 - Completed BMI Calculator test.
+2024-05-28 13:19:25 INFO  Log:15 - Test passed: testBmiCalculator
+2024-05-28 13:19:25 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 13:19:25 INFO  Log:15 - Test suite finished: BmiCalculator Tests
+2024-05-28 13:19:25 INFO  Log:15 - Test suite started: Google Tests
+2024-05-28 13:19:25 INFO  Log:15 - Setting up WebDriver and navigating to Google.
+2024-05-28 13:19:30 INFO  Log:15 - Test started: testGmailLink
+2024-05-28 13:19:30 INFO  Log:15 - Starting Gmail Link test.
+2024-05-28 13:19:41 INFO  Log:15 - Completed Gmail Link test.
+2024-05-28 13:19:41 INFO  Log:15 - Test passed: testGmailLink
+2024-05-28 13:19:41 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 13:19:42 INFO  Log:15 - Setting up WebDriver and navigating to Google.
+2024-05-28 13:19:46 INFO  Log:15 - Test started: testPartialGmailLink
+2024-05-28 13:19:46 INFO  Log:15 - Starting Partial Gmail Link test.
+2024-05-28 13:19:58 INFO  Log:15 - Completed Partial Gmail Link test.
+2024-05-28 13:19:58 INFO  Log:15 - Test passed: testPartialGmailLink
+2024-05-28 13:19:58 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 13:19:58 INFO  Log:15 - Test suite finished: Google Tests
+2024-05-28 13:19:58 INFO  Log:15 - Test suite started: Rediff Tests
+2024-05-28 13:19:58 INFO  Log:15 - Setting up WebDriver and navigating to Rediff.
+2024-05-28 13:20:32 INFO  Log:15 - Test started: testSearch
+2024-05-28 13:20:32 INFO  Log:15 - Starting Rediff search test.
+2024-05-28 13:20:41 INFO  Log:15 - Completed Rediff search test.
+2024-05-28 13:20:41 INFO  Log:15 - Test passed: testSearch
+2024-05-28 13:20:41 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 13:20:41 INFO  Log:15 - Test suite finished: Rediff Tests
+2024-05-28 13:20:41 INFO  Log:15 - Test suite started: SeleniumPages Tests
+2024-05-28 13:20:41 INFO  Log:15 - Setting up WebDriver.
+2024-05-28 13:20:43 INFO  Log:15 - Test started: testCssSelector
+2024-05-28 13:20:43 INFO  Log:15 - Starting CSS Selector test.
+2024-05-28 13:20:52 INFO  Log:15 - Completed CSS Selector test.
+2024-05-28 13:20:52 INFO  Log:15 - Test passed: testCssSelector
+2024-05-28 13:20:52 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 13:20:52 INFO  Log:15 - Setting up WebDriver.
+2024-05-28 13:20:54 INFO  Log:15 - Test started: testXpath
+2024-05-28 13:20:54 INFO  Log:15 - Starting XPath test.
+2024-05-28 13:21:01 INFO  Log:15 - Completed XPath test.
+2024-05-28 13:21:01 INFO  Log:15 - Test passed: testXpath
+2024-05-28 13:21:02 INFO  Log:15 - Closing the WebDriver.
+2024-05-28 13:21:02 INFO  Log:15 - Test suite finished: SeleniumPages Tests

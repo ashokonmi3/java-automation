@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+   <parameter name="searchTerm" value="javaselenium" />
+  <parameter name="url" value="https://google.com" />
+      <classes>
+      <class name="javaautomation_03_testng.TNG_08_Parameters"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test2">
+   <parameter name="searchTerm" value="Python" />
+  <parameter name="url" value="https://yahoo.com" />
+      <classes>
+      <class name="javaautomation_03_testng.TNG_08_Parameters"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

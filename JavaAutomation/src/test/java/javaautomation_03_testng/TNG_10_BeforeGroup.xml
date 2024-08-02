@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" >
+  <test name="Test">
+  <groups>
+  <run>
+     <include name = "sanity" />
+         <include name = "regression" />
+    
+  </run>
+  </groups>
+    <classes>
+      <class name="javaautomation_03_testng.TNG_10_BeforeGroup"/>
+
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

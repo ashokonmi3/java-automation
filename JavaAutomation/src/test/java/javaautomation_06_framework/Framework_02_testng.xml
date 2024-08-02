@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Tests Suite">
+    <listeners>
+        <listener class-name="javaautomation_06_framework.TestListener"/>
+    </listeners>
+    <test name="BmiCalculator Tests">
+        <classes>
+            <class name="javaautomation_06_framework.Framework_02_BmiCalculatorTest"/>
+        </classes>
+    </test>
+    <test name="Google Tests">
+        <classes>
+            <class name="javaautomation_06_framework.Framework_02_GoogleTest"/>
+        </classes>
+    </test>
+    <test name="Rediff Tests">
+        <classes>
+            <class name="javaautomation_06_framework.Framework_02_RediffTest"/>
+        </classes>
+    </test>
+    <test name="SeleniumPages Tests">
+        <classes>
+            <class name="javaautomation_06_framework.Framework_02_SeleniumTest"/>
+        </classes>
+    </test>
+</suite>

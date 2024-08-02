@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://chandanachaitanya.github.io/selenium-practice-site/ -->
+<html lang="en" class="fa-events-icons-ready"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+    <title>WebDriver Demo Website</title>
+	</head><body style="font-size:18px; font-family:alegreya;"><div align="center" style="padding:5px;">
+		<h1 style="font-family:alegreya">Selenium WebDriver Practice</h1><h1>
+		<hr style="margin:25px;">
+	</h1></div>
+	<!-- To ensure proper rendering on mobile devices and disable zooming capabilities -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+	 <!-- Google Font -->
+    <link href="./WebDriver Demo Website_files/css" rel="stylesheet">
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="./WebDriver Demo Website_files/bootstrap.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="./WebDriver Demo Website_files/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="./WebDriver Demo Website_files/style.css">
+    
+  <!-- BODY START -->
+   
+	<!-- FORM START -->  
+    <form id="practiceForm" name="OptionsForm">  
+	  <!-- RADIO BUTTONS START -->
+      <div class="row" style="margin:10px;"> 
+		<div class="col-md-12 col-xs-10 col-xs-offset-1">
+			<strong>I have:&nbsp;&nbsp;</strong>
+		</div>
+		<div id="twoWheelVehicles" class="col-md-6 col-xs-10 col-xs-offset-1">
+			<input id="bicycle-checkbox" type="checkbox" name="vehicle1" value="Bicycle">&nbsp;Bicycle  
+			<input id="tricycle-checkbox" type="checkbox" name="vehicle2" value="Tricycle" disabled="">&nbsp;Tricycle   
+			<input id="bike-checkbox" type="checkbox" name="vehicle3" value="Bike">&nbsp;Bike 
+		</div> <!-- //.twoWheelVehicles -->	
+		<div id="fourWheelVehicles" class="col-md-6 col-xs-10 col-xs-offset-1">
+			<input id="hatchback-checkbox" type="checkbox" name="vehicle4" value="Hatchback">&nbsp;Hatchback		
+			<input id="sedan-checkbox" type="checkbox" name="vehicle5" value="Sedan">&nbsp;Sedan    
+			<input id="van-checkbox" type="checkbox" name="vehicle6" value="Van">&nbsp;Van
+			<input id="suv-checkbox" type="checkbox" name="vehicle7" value="SUV">&nbsp;SUV
+			<input id="truck-checkbox" type="checkbox" name="vehicle8" value="Truck">&nbsp;Truck	
+		</div> <!-- //.fourWheelVehicles -->	
+		</div> <!-- //.row -->
+		<!-- CHECKBOXES START -->
+		<div class="row" style="margin:10px;"> 
+		<div class="col-md-12 col-xs-10 col-xs-offset-1">
+			<strong>I read:&nbsp;&nbsp;</strong>
+		</div>
+		<div id="booksCheckboxes" class="col-md-12 col-xs-10 col-xs-offset-1">
+			<input id="magazines-radio-btn" type="radio" name="books" value="Magazines"> &nbsp;Magazines  
+			<input id="novels-radio-btn" type="radio" name="books" value="Novels"> &nbsp;Novels  
+			<input id="self-help-radio-btn" type="radio" name="books" value="Self help books"> &nbsp;Self help books 
+	  </div> <!-- //.booksCheckboxes -->	
+      </div> <!-- //.row -->	
+	  <!-- DROPDOWN START -->
+	  <div class="row" style="margin:10px;"> 
+	  <div id="dropdowns" class="col-md-4 col-xs-10 col-xs-offset-1" style="padding-bottom:15px;">		
+		<p><strong><label>Programming Languages</label></strong></p>
+		<select id="programming-languages" class="input-xlarge" name="languages">
+			<option value="Java">Java</option>
+			<option value="C++">C++</option>
+			<option value="C#">C#</option>
+			<option value="JavaScript">JavaScript</option>
+			<option value="Python">Python</option>
+			<option value="PHP">PHP</option>
+		</select>	  
+	    <br>
+		<br>
+        <!-- MULTIPLE SELECTION START -->
+        <p><strong><label>Selenium Tool Suite</label></strong></p>
+	    <select id="selenium_suite" multiple="multiple" name="selenium_suite">
+			<option value="IDE">Selenium IDE</option>
+			<option value="WebDriver">Selenium WebDriver</option>
+			<option value="RC">Selenium RC</option>
+			<option value="Grid">Selenium Grid</option>
+			<option value="Adv">Advantages</option>
+			<option value="Limitations">Limitations</option>
+		</select>
+	  </div> <!-- DROPDOWN END -->
+	  <br>
+	  <br>
+	  <!-- TABLES START -->
+	  <div id="tables" class="col-md-4 col-xs-10 col-xs-offset-1">
+	  <p><strong><label>Table For Practice</label></strong></p>
+	  <div class="table-responsive">
+	  <table class="table table-bordered">         
+		<tbody><tr>          
+			<td>Row 1</td>           
+			<td>                 
+				<table class="table table-bordered">                    
+					<tbody><tr>
+						<td>Inner Row 1</td>
+					</tr>                    
+					<tr>
+						<td>Inner Row 2</td>
+					</tr>                 
+				</tbody></table>            
+			</td>         
+		</tr> 
+		<tr>
+			<td>Row 2</td>
+			<td>Selenium</td>
+		</tr>
+	  </tbody></table>
+	  </div>
+	  </div> <!-- //.tables -->
+      </div> <!-- //.row -->
+	  
+	  <!-- Pop-up boxes START -->
+	  <div class="row" style="margin:10px;"> 
+	  <div class="col-md-3 col-xs-10 col-xs-offset-1">
+		<button id="alertBox" onclick="simpleAlert()">Alert Box</button>
+	  </div> <!-- //.alertBox -->
+	  
+	  <div class="col-md-3 col-xs-10 col-xs-offset-1">
+		<button id="confirmBox" onclick="clickToConfirm()">Confirm Box</button>
+	  </div> <!-- //.confirmBox -->
+	  
+	  <div class="col-md-3 col-xs-10 col-xs-offset-1">
+		<button id="promptBox" onclick="clickToPrompt()">Prompt Box</button>
+	  </div> <!-- //.promptBox -->
+	  </div> <!-- //.row -->
+	  <!-- Pop-up boxes END -->
+	  <br>
+	  
+	  <!-- Table START -->
+	  <div class="row" style="margin:10px;"> 
+	  <div id="AuthorsTable" class="col-md-10 col-xs-10 col-xs-offset-1">
+	  <p><strong><label>Books &amp; Authors</label></strong></p>
+	  <div class="table-responsive">
+	  <table id="BooksAuthorsTable" class="table table-bordered">         
+		<tbody><tr>          
+			<th>Author</th>           
+			<th>Book 1</th>  
+			<th>Book 2</th> 
+			<th>Book 3</th> 
+		</tr> 
+		<tr>
+			<td>William Shakespeare</td>
+			<td>Romeo and Juliet</td>
+			<td>A Midsummer Night's Dream</td>
+			<td>Julius Caesar</td>
+		</tr>
+		<tr>
+			<td>J. R. R. Tolkien</td>
+			<td>The Lord of the Rings</td>
+			<td>The Hobbit</td>
+			<td>Tales from the Perilous Realm</td>
+		</tr>
+		<tr>
+			<td>Dan Brown</td>
+			<td>The Da Vinci Code</td>
+			<td>Angels &amp; Demons</td>
+			<td>Deception Point</td>
+		</tr>
+		<tr>
+			<td>J. K. Rowling</td>
+			<td>Fantastic Beasts and Where to Find Them</td>
+			<td>Harry Potter Series</td>
+			<td>The Tales of Beedle the Bard</td>
+		</tr>
+		<tr>
+			<td>John Grisham</td>
+			<td>The Whistler</td>
+			<td>A Time to Kill</td>
+			<td>The Firm</td>
+		</tr>	
+		<tr>
+			<td>Nora Roberts</td>
+			<td>Jewels of the Sun</td>
+			<td>The Obsession</td>
+			<td>Stars of Fortune</td>
+		</tr>
+	  </tbody></table>
+	 </div>
+	 </div> <!-- //.AuthorsTable -->
+	 </div> <!-- //.row -->
+	  <!-- Table END -->
+	  
+	  <!--  START -->
+	  <div class="row" style="margin:10px;">
+	  <div id="multipleWindows" class="col-md-4 col-xs-10 col-xs-offset-1">
+		<p><button id="win1" onclick="newWindow()">Click to open a new browser window!</button></p>
+	  </div> <!-- //.multipleWindows -->
+	  <div id="windowMaximize" class="col-md-4 col-xs-10 col-xs-offset-1">
+		<p><button id="win2" onclick="windowToMaximize()">Click to open a small window!</button></p>
+	  </div>
+	  <div id="textInput" class="col-md-4 col-xs-10 col-xs-offset-1">
+		<label for="enterText" id="labelText">Message: </label>
+		<input type="text" id="enterText" name="enterText">
+	  </div>
+	  </div> <!-- //.row -->
+	   <!--  END -->
+	   
+	   <!--  START -->
+	  <div class="row" style="margin:10px;">
+		<div id="dragDrop" class="col-md-6 col-xs-offset-1">
+			<p><strong><label>Drag and drop the elements in the below list</label></strong></p>
+			<ul id="sortable" class="ui-sortable">
+				<li id="click" class="ui-sortable-handle">click()</li>
+				<li id="sendKeys" class="ui-sortable-handle">sendKeys()</li>
+				<li id="findElement" class="ui-sortable-handle">findElement()</li>
+				<li id="clickAndHold" class="ui-sortable-handle">clickAndHold()</li>
+ 			   <span class="context-menu-one btn btn-neutral">right click me</span>
+
+			</ul>
+		</div> <!-- //.dragDrop -->
+	  </div> <!-- //.row -->
+	   <!--  END --> 
+	   <span class="context-menu-one btn btn-neutral">right click me</span>
+
+    </form> <!-- //.practiceForm -->	
+<!-- //HORIZONTAL LINE TO SEPARATE FOOTER -->
+ <hr>
+ <!-- //FOOTER SECTION -->
+   <!-- //.footer -->	
+<!-- //FOOTER SECTION -->
+
+<!-- SCRIPTS :placed at the end so that page loads faster -->
+	<!-- Latest compiled and minified JQuery -->
+    <script src="./WebDriver Demo Website_files/jquery.min.js.download"></script>
+	<script src="./WebDriver Demo Website_files/jquery-1.12.4.js.download"></script>
+	<script src="./WebDriver Demo Website_files/jquery-ui.js.download"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="./WebDriver Demo Website_files/bootstrap.min.js.download"></script>
+	<!-- Font icons -->
+	<script src="./WebDriver Demo Website_files/ba8437ed1f.js.download"></script><link rel="stylesheet" href="./WebDriver Demo Website_files/ba8437ed1f.css" media="all">   
+	<!-- Main JS -->
+	<script src="./WebDriver Demo Website_files/DemoSite.js.download"></script>
+<!-- //SCRIPTS -->
+
+
+ 	
+</body></html>
